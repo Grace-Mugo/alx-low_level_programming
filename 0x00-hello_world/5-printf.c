@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * Main - Displays output and adds new line
- * Return - 0 and exit the program
+ * main - displays "with proper grammar" with new line
+ * Return: 0 and exit the program
  */
 int main(void)
 {
