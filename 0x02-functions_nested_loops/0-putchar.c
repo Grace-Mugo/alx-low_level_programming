@@ -3,19 +3,19 @@
 /**
  * main - Entry point
  *
- * Description: Prints "_putchar", followed by a new line
+ * Description: Prints _putchar, followed by a new line
  *
- * return: 0 (Success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char output[] = "_putchar\n";
+	char message[] = "_putchar\n";
 	int i;
-	
-	for (i=0; output[i] != '\0'; i++)
+
+	for (i = 0; message[i] != '\0'; i++)
 	{
-		_putchar(output[i]);
+		/* Use the _putchar function to print each character */
+		_putchar(message[i]);
 	}
 
 	return (0);
