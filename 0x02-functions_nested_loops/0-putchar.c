@@ -5,17 +5,17 @@
  *
  * Description: Prints _putchar, followed by a new line
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
+
 int main(void)
 {
-	char message[] = "_putchar\n";
+	char output[] = "_putchar\n";
 	int i;
 
-	for (i = 0; message[i] != '\0'; i++)
+	for (i = 0; output[i] != '\0'; i++)
 	{
-		/* Use the _putchar function to print each character */
-		_putchar(message[i]);
+		_putchar(output[i]);
 	}
 
 	return (0);
