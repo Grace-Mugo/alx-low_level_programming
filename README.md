@@ -1,1 +1,1 @@
-Low level programming projects
+C - More pointers, arrays and strings
