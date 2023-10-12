@@ -6,6 +6,7 @@
  *
  * @n: Input parameter
  * @...: Variable parameters
+ *
  * Return: sum, otherwise 0 if n == 0
  */
 
